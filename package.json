@@ -1,5 +1,5 @@
 {
-  "name": "solana-bot",
+  "name": "phoenix-trader",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/bn.js": "^5.1.2",
-    "@types/node": "^20.7.1",
-    "typescript": "^5.2.2"
+    "@types/node": "^20.14.12",
+    "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@ellipsis-labs/phoenix-sdk": "^2.0.2",
-    "@solana/web3.js": "^1.78.5",
-    "dotenv": "^16.3.1",
+    "@ellipsis-labs/phoenix-sdk": "^2.0.3",
+    "@solana/web3.js": "^1.95.1",
+    "dotenv": "^16.4.5",
     "node-fetch": "^3.3.2"
   }
 }
